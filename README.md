@@ -13,10 +13,14 @@ or not.
 DGIM
 
 ### How to run:
-1. Compile the java program: javac DataStreamSum.java
+1. Compile the java program: 
+
+javac DataStreamSum.java
 
 2. Start the server (which sends out integer streams) with command: 
+
 server.py [number of total integers] [maximum delay] [minimum delay]
 
 3. Start the client with command:
+
 java DataStreamSum [host:port] > output.txt
